@@ -111,7 +111,7 @@ small {
 .nav-jumbo {
     display: flex;
     position: relative;
-    height: calc(100vh - 50px);
+    height: calc(800px - 50px);
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
