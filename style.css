@@ -17,12 +17,68 @@ a {
     color: #edf4ec;
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-weight: 900;
 }
 
+h3, h4 {
+    font-weight: bold;
+}
+
 h1 {
-    font-size: 45px;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+small {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #088181;
+}
+
+.buttn {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.one {
+    text-transform: uppercase;
+    background-color: #088181;
+    border: 1px solid #088181;
+}
+
+.one:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.two {
+    background-color: transparent;
+    border: 1px solid #088181;
+}
+
+.two:hover {
+    text-decoration: none;
+    background-color: #088181;
+    color: #8cdadc;
+}
+
+.three {
+    background-color: #8cdadc;
+    border: 1px solid #8cdadc;
+    color: #088181;
+}
+
+.three:hover {
+    text-decoration: none;
+    color: #fff;
 }
 
 /*----- Site Sections -----*/
@@ -32,6 +88,12 @@ h1 {
     align-items: center;
     height: 50px;
     background-color: #21333E;
+}
+
+.info-bar small {
+    font-weight: normal;
+    text-transform: none;
+    color: #fff;
 }
 
 .info-bar .fas, .fab{
@@ -44,12 +106,18 @@ h1 {
     align-items: center;
 }
 
+/*----- Nav Jumbo Section -----*/
+
 .nav-jumbo {
     display: flex;
+    position: relative;
     height: calc(100vh - 50px);
-    background-image: url('img/image.png');
-    background-color: rgba(183, 183, 183, 0.7);
+    background-image: url('img/jumbo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
 }
+
 
 .nav-jumbo a {
     font-weight: bold;
@@ -87,32 +155,6 @@ h1 {
     margin: 0 15px;
 }
 
-.nav-jumbo .buttn {
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.nav-jumbo .one {
-    background-color: #088181;
-    border: 1px solid #088181;
-}
-
-.nav-jumbo .one:hover {
-    text-decoration: none;
-    color: #fff;
-}
-
-.nav-jumbo .two {
-    background-color: transparent;
-    border: 1px solid #088181;
-}
-
-.nav-jumbo .two:hover {
-    text-decoration: none;
-    background-color: #088181;
-    color: #8cdadc;
-}
-
 .nav-jumbo .nav-links:last-child a {
     color: #edf4ec;
 }
@@ -124,11 +166,68 @@ h1 {
     float: right;
     display: flex;
     flex-direction: column;
-    margin-top: 150px;
+    margin-top: 120px;
     width: 300px;
 }
 
 .nav-jumbo .jumbo p {
+    font-size: 16px;
     padding: 15px 0;
     color: #7f939c;
+}
+
+
+
+/*----- Business Section -----*/
+
+.business {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+    background-color: #edf4ec;
+    padding: 100px 0;
+}
+
+.business .services {
+    display: flex;
+    width: 320px;
+    flex-direction: column;
+}
+
+.business .services h2, p {
+    color: #252c2f;
+}
+
+.business .services p {
+    font-size: 13px;
+}
+
+.business .services .traits {
+    padding: 15px 0;
+}
+
+.business .services .cta {
+    padding: 15px 0;
+}
+
+.business .cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 35px 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #252c2f;
+}
+
+.business .cards .img-card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.business .cards .img-card > img {
+    width: 185px;
 }
