@@ -8,14 +8,22 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+
+a {
     font-size: 13px;
     color: #edf4ec;
 }
 
-a {
-    color: #edf4ec;
+h1, h2, h3 {
+    font-weight: 900;
 }
 
+h1 {
+    font-size: 45px;
+}
 
 /*----- Site Sections -----*/
 
@@ -40,16 +48,17 @@ a {
     display: flex;
     height: calc(100vh - 50px);
     background-image: url('img/image.png');
-    background-color: lightgrey;
+    background-color: rgba(183, 183, 183, 0.7);
 }
 
 .nav-jumbo a {
     font-weight: bold;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .nav-jumbo a:hover {
-    color: #048383;
+    color: #8cdadc;
 }
 
 .nav-jumbo .navbar {
@@ -71,10 +80,6 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.navbar-nav .nav-links {
-    display: flex;
     align-items: center;
 }
 
@@ -82,12 +87,48 @@ a {
     margin: 0 15px;
 }
 
-.nav-jumbo .nav-links:last-child {
-    padding: 2px;
+.nav-jumbo .buttn {
+    padding: 10px;
     border-radius: 5px;
+}
+
+.nav-jumbo .one {
     background-color: #088181;
+    border: 1px solid #088181;
+}
+
+.nav-jumbo .one:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-jumbo .two {
+    background-color: transparent;
+    border: 1px solid #088181;
+}
+
+.nav-jumbo .two:hover {
+    text-decoration: none;
+    background-color: #088181;
+    color: #8cdadc;
 }
 
 .nav-jumbo .nav-links:last-child a {
     color: #edf4ec;
+}
+
+
+/*Jumbo*/
+
+.nav-jumbo .jumbo {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    width: 300px;
+}
+
+.nav-jumbo .jumbo p {
+    padding: 15px 0;
+    color: #7f939c;
 }

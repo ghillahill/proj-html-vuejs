@@ -6,8 +6,7 @@ var app = new Vue({
             'Services',
             'Skills',
             'Partners',
-            'Blog',
-            'Get In Touch'            
+            'Blog'
         ]
     },
     methods: {
