@@ -6,4 +6,25 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    color: #edf4ec;
+}
+
+
+/*----- Site Sections -----*/
+
+.info-bar {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #21333E;
+}
+
+.info-bar .fas, .fab{
+    vertical-align: middle;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
