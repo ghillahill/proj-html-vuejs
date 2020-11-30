@@ -16,24 +16,39 @@
             <section class="info-bar">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-3">
+                        <div class="col-3">
                             <i class="fas fa-clock"></i>
                             <small>Open Hours: Mon - Sat - 9:00 - 18:00</small>
                         </div>
-                        <div class="col-xl-2 offset-xl-3">
+                        <div class="col-2 offset-3">
                             <i class="fas fa-phone-alt"></i>
                             <small>+1 (305) 1234-5678</small>
                         </div>
-                        <div class="col-xl-2">
+                        <div class="col-2">
                             <i class="fas fa-envelope"></i>
                             <small>hello@example.com</small>
                         </div>
-                        <div class="social col-xl-2">
+                        <div class="social col-2">
                             <i class="fab fa-facebook-f"></i>
                             <i class="fab fa-twitter"></i>
                             <i class="fab fa-linkedin-in"></i>
                         </div>
                     </div>
+                </div>
+            </section>
+            <section class="nav-jumbo">
+                <div class="container">
+                    <nav class="navbar">
+                        <a class="navbar-brand" href="#">
+                            <span class="logo-deco">Nex</span>Gen
+                        </a>
+
+                        <div class="navbar-nav">
+                            <div class="nav-links" v-for="item in navMenu">
+                                <a class="nav-link active" href="#">{{ item }}</a>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
             </section>
         </div>

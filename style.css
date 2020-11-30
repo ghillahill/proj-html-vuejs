@@ -4,8 +4,15 @@
     box-sizing: border-box;
 }
 
+/*----- Site General -----*/
+
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #edf4ec;
+}
+
+a {
     color: #edf4ec;
 }
 
@@ -27,4 +34,60 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.nav-jumbo {
+    display: flex;
+    height: calc(100vh - 50px);
+    background-image: url('img/image.png');
+    background-color: lightgrey;
+}
+
+.nav-jumbo a {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-jumbo a:hover {
+    color: #048383;
+}
+
+.nav-jumbo .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-jumbo span.logo-deco {
+    padding-right: 5px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: rgba(7, 233, 233, 0.67);
+}
+
+.nav-jumbo .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-nav .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-jumbo .navbar-nav a {
+    margin: 0 15px;
+}
+
+.nav-jumbo .nav-links:last-child {
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #088181;
+}
+
+.nav-jumbo .nav-links:last-child a {
+    color: #edf4ec;
 }
