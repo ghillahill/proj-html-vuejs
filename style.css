@@ -50,8 +50,8 @@ small {
 
 .one {
     text-transform: uppercase;
-    background-color: #088181;
-    border: 1px solid #088181;
+    background-color: #048383;
+    border: 1px solid #048383;
 }
 
 .one:hover {
@@ -296,7 +296,7 @@ small {
     justify-content: center;
     align-items: center;
     height: 250px;
-    background-color: #e5ebe5;
+    background-color: #edf4ec;
 }
 
 .sponsor .sponsor-items {
@@ -309,5 +309,24 @@ small {
 }
 
 .sponsor .sponsor-items img {
-    max-width: 100px;
+    max-height: 25px;
+}
+
+
+
+/*----- Editorial Section -----*/
+
+.editorial {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.editorial h2 {
+    color: #121117;
+}
+
+.editorial .text-position {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
