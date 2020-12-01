@@ -26,7 +26,7 @@ h3, h4 {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 55px;
 }
 
 h2 {
@@ -34,7 +34,7 @@ h2 {
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 small {
@@ -176,7 +176,7 @@ small {
 .nav-jumbo .jumbo p {
     font-size: 16px;
     padding: 15px 0;
-    color: #7f939c;
+    color: #919194;
 }
 
 
@@ -238,5 +238,67 @@ small {
 /*----- Network Section -----*/
 
 .network {
-    background-color: #252c2f;
+    display: flex;
+    background-color: #121117;
+}
+
+.network .company {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-left: 395px;
+    width: 50%;
+}
+
+.network .company p {
+    color: #919194;
+}
+
+.network .company-charts {
+    display: flex;
+    flex-direction: column;
+}
+
+.network .company-charts .chart {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.network .company-image {
+    display: flex;
+    width: 50%;
+}
+
+.network .company-image img {
+    display: flex;
+    max-width: 100%;
+}
+
+
+
+
+/*----- Sponsor Section -----*/
+
+.sponsor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: #e5ebe5;
+}
+
+.sponsor .sponsor-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    padding: 50px;
+}
+
+.sponsor .sponsor-items img {
+    max-width: 100px;
 }
