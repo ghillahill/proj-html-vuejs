@@ -187,9 +187,9 @@ small {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 450px;
+    height: 500px;
     background-color: #edf4ec;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .business .services {
@@ -233,4 +233,10 @@ small {
 
 .business .cards .img-card > img {
     width: 185px;
+}
+
+/*----- Network Section -----*/
+
+.network {
+    background-color: #252c2f;
 }
