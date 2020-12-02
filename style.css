@@ -69,7 +69,7 @@ small {
 .two:hover {
     text-decoration: none;
     background-color: #088181;
-    color: #8cdadc;
+    color: #edf4ec;
 }
 
 .three {
@@ -185,6 +185,10 @@ small {
     font-size: 16px;
     padding: 15px 0;
     color: #919194;
+}
+
+#nav-jumbo .jumbo .two {
+    color: #edf4ec;
 }
 
 
