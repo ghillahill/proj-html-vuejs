@@ -140,14 +140,19 @@ small {
     justify-content: space-between;
 }
 
-#nav-jumbo span.logo-deco {
+#nav-jumbo .navbar-brand {
+    font-size: 18px;
+}
+
+.navbar-brand span.logo-deco {
     padding-right: 5px;
     padding-left: 20px;
     padding-top: 8px;
     padding-bottom: 8px;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
-    background-color: rgba(7, 233, 233, 0.67);
+    color: #00dae4;
+    background-color: rgba(8, 129, 129, 0.4);
 }
 
 #nav-jumbo .navbar-nav {
