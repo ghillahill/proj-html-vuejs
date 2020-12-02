@@ -60,8 +60,10 @@ small {
 }
 
 .two {
+    color: #088181;
     background-color: transparent;
     border: 1px solid #088181;
+    text-transform: uppercase;
 }
 
 .two:hover {
@@ -87,13 +89,14 @@ small {
     display: flex;
     align-items: center;
     height: 50px;
+    color: #C0C3D0;
     background-color: #21333E;
 }
 
 #info-bar small {
     font-weight: normal;
     text-transform: none;
-    color: #fff;
+    color: #C0C3D0;
 }
 
 #info-bar .fas, .fab{
@@ -198,12 +201,13 @@ small {
     flex-direction: column;
 }
 
-#business .services h2, p {
+#business .services h2 {
     color: #252c2f;
 }
 
 #business .services p {
     font-size: 13px;
+    color: #737373;
 }
 
 #business .services .traits {
@@ -263,7 +267,8 @@ small {
 }
 
 #network .company p {
-    color: #919194;
+    font-size: 13px;
+    color: #737373;
 }
 
 #network .company-charts {
@@ -335,6 +340,10 @@ small {
     align-items: baseline;
 }
 
+#editorial .text-position p {
+    color: #737373;
+}
+
 #editorial .editorial-news-1, .editorial-news-2, .editorial-news-3 {
     display: flex;
     justify-content: center;
@@ -374,7 +383,7 @@ small {
 
 #editorial .editorial-news-1 p, .editorial-news-2 p, .editorial-news-3 p {
     font-size: 16px;
-    color: #fff;
+    color: #edf4ec;
     font-weight: bold;
 }
 
@@ -405,7 +414,7 @@ small {
 #newsletter p {
     font-size: 13px;
     line-height: 2.25;
-    color: #fff;
+    color: #737373;
 }
 
 #newsletter .newsletter-span {
@@ -451,6 +460,10 @@ small {
     color: #252c2f;
 }
 
+#contact-us .contact-info p {
+    color: #737373;
+}
+
 #contact-us .contact-title {
     padding: 20px 0 10px 0;
 }
@@ -483,4 +496,46 @@ small {
 
 #contact-us .form-group .name, .form-group .phone {
     margin-right: 15px;
+}
+
+
+/* Contact About */
+
+#contact-us .contact-about {
+    padding: 0px 65px;
+}
+
+#contact-us .contact-about h3 {
+    color: #252c2f;
+}
+
+#contact-us .contact-about p {
+    color: #737373;
+    font-size: 13px;
+}
+
+#contact-us .contact-about-info {
+    padding-bottom: 20px;
+}
+
+#contact-us .contact {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#contact-us .contact-about .icon {
+    display: inline-block;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    padding: 6px;
+    margin-right: 10px;
+    border-radius: 100%;
+    color: #058283;
+    background-color: #CCE3DE;
+}
+
+#contact-us .contact-about span {
+    color: #058283;
 }
