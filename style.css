@@ -100,7 +100,7 @@ small {
     vertical-align: middle;
 }
 
-.social {
+#info-bar .social {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -348,6 +348,7 @@ small {
     background-position: center;
     object-fit: cover;
     background-size: cover;
+    cursor: pointer;
 }
 
 #editorial .editorial-news-1 {
@@ -376,3 +377,67 @@ small {
     color: #fff;
     font-weight: bold;
 }
+
+
+
+/*----- Newsletter Section -----*/
+
+#newsletter {
+    padding: 100px 0;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('img/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+}
+
+#newsletter .newsletter-info {
+    padding-right: 60px;
+}
+
+#newsletter .newsletter-title {
+    padding: 10px 0;
+}
+
+#newsletter p {
+    font-size: 13px;
+    line-height: 2.25;
+    color: #fff;
+}
+
+#newsletter .newsletter-span {
+    padding: 3px;
+    border-radius: 3px;
+    background-color: #048383;
+}
+
+#newsletter .input-form {
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+}
+
+#newsletter .input-form  input {
+    margin: 10px 0;
+}
+
+#newsletter .form-control {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    color: #252c2f;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4) 70%);
+    background-clip: padding-box;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+#newsletter .input-form .button-section {
+    padding-top: 20px;
+}
+
+
+
+/*----- ContactUs Section -----*/
