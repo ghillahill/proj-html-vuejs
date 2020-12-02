@@ -83,20 +83,20 @@ small {
 
 /*----- Site Sections -----*/
 
-.info-bar {
+#info-bar {
     display: flex;
     align-items: center;
     height: 50px;
     background-color: #21333E;
 }
 
-.info-bar small {
+#info-bar small {
     font-weight: normal;
     text-transform: none;
     color: #fff;
 }
 
-.info-bar .fas, .fab{
+#info-bar .fas, .fab{
     vertical-align: middle;
 }
 
@@ -108,7 +108,7 @@ small {
 
 /*----- Nav Jumbo Section -----*/
 
-.nav-jumbo {
+#nav-jumbo {
     display: flex;
     position: relative;
     height: calc(800px - 50px);
@@ -122,22 +122,22 @@ small {
 }
 
 
-.nav-jumbo a {
+#nav-jumbo a {
     font-weight: bold;
     text-transform: uppercase;
     font-weight: 500;
 }
 
-.nav-jumbo a:hover {
+#nav-jumbo a:hover {
     color: #8cdadc;
 }
 
-.nav-jumbo .navbar {
+#nav-jumbo .navbar {
     display: flex;
     justify-content: space-between;
 }
 
-.nav-jumbo span.logo-deco {
+#nav-jumbo span.logo-deco {
     padding-right: 5px;
     padding-left: 20px;
     padding-top: 8px;
@@ -147,25 +147,25 @@ small {
     background-color: rgba(7, 233, 233, 0.67);
 }
 
-.nav-jumbo .navbar-nav {
+#nav-jumbo .navbar-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-jumbo .navbar-nav a {
+#nav-jumbo .navbar-nav a {
     margin: 0 15px;
 }
 
-.nav-jumbo .nav-links:last-child a {
+#nav-jumbo .nav-links:last-child a {
     color: #edf4ec;
 }
 
 
 /*Jumbo*/
 
-.nav-jumbo .jumbo {
+#nav-jumbo .jumbo {
     float: right;
     display: flex;
     flex-direction: column;
@@ -173,7 +173,7 @@ small {
     width: 300px;
 }
 
-.nav-jumbo .jumbo p {
+#nav-jumbo .jumbo p {
     font-size: 16px;
     padding: 15px 0;
     color: #919194;
@@ -183,7 +183,7 @@ small {
 
 /*----- Business Section -----*/
 
-.business {
+#business {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -192,29 +192,29 @@ small {
     padding: 50px 0;
 }
 
-.business .services {
+#business .services {
     display: flex;
     width: 320px;
     flex-direction: column;
 }
 
-.business .services h2, p {
+#business .services h2, p {
     color: #252c2f;
 }
 
-.business .services p {
+#business .services p {
     font-size: 13px;
 }
 
-.business .services .traits {
+#business .services .traits {
     padding: 15px 0;
 }
 
-.business .services .cta {
+#business .services .cta {
     padding: 15px 0;
 }
 
-.business .cards {
+#business .cards {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -224,25 +224,25 @@ small {
     color: #252c2f;
 }
 
-.business .cards .img-card {
+#business .cards .img-card {
     display: flex;
     justify-content: center;
     width: 100%;
     padding-bottom: 20px;
 }
 
-.business .cards .img-card > img {
+#business .cards .img-card > img {
     width: 185px;
 }
 
 /*----- Network Section -----*/
 
-.network {
+#network {
     display: flex;
     background-color: #121117;
 }
 
-.network .company {
+#network .company {
     display: flex;
     flex-direction: column;
     padding-top: 100px;
@@ -252,37 +252,37 @@ small {
     width: 50%;
 }
 
-.network .company-title {
+#network .company-title {
     padding: 20px 0;
 }
 
-.network .company-span {
+#network .company-span {
     padding: 5px;
     border-radius: 3px;
     background-color: #048383;
 }
 
-.network .company p {
+#network .company p {
     color: #919194;
 }
 
-.network .company-charts {
+#network .company-charts {
     display: flex;
     flex-direction: column;
 }
 
-.network .company-charts .chart {
+#network .company-charts .chart {
     display: flex;
     align-items: center;
     padding: 20px 0;
 }
 
-.network .company-image {
+#network .company-image {
     display: flex;
     width: 50%;
 }
 
-.network .company-image img {
+#network .company-image img {
     display: flex;
     max-width: 100%;
 }
@@ -291,7 +291,7 @@ small {
 
 /*----- Sponsor Section -----*/
 
-.sponsor {
+#sponsor {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -299,7 +299,7 @@ small {
     background-color: #edf4ec;
 }
 
-.sponsor .sponsor-items {
+#sponsor .sponsor-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -308,7 +308,7 @@ small {
     padding: 50px;
 }
 
-.sponsor .sponsor-items img {
+#sponsor .sponsor-items img {
     max-height: 25px;
 }
 
@@ -316,26 +316,26 @@ small {
 
 /*----- Editorial Section -----*/
 
-.editorial {
+#editorial {
     padding: 100px 0;
     background-color: #fff;
 }
 
-.editorial h2 {
+#editorial h2 {
     color: #121117;
 }
 
-.editorial .container:last-child {
+#editorial .container:last-child {
     padding-top: 30px;
 }
 
-.editorial .text-position {
+#editorial .text-position {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 
-.editorial .editorial-news-1, .editorial-news-2, .editorial-news-3 {
+#editorial .editorial-news-1, .editorial-news-2, .editorial-news-3 {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -350,28 +350,28 @@ small {
     background-size: cover;
 }
 
-.editorial .editorial-news-1 {
+#editorial .editorial-news-1 {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ), url('img/news-1.jpg');
 }
 
-.editorial .editorial-news-2 {
+#editorial .editorial-news-2 {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ), url('img/news-2.jpg');
 }
 
-.editorial .editorial-news-3 {
+#editorial .editorial-news-3 {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ), url('img/news-3.jpg');
 }
 
-.editorial .editorial-news-1 p, .editorial-news-2 p, .editorial-news-3 p {
+#editorial .editorial-news-1 p, .editorial-news-2 p, .editorial-news-3 p {
     font-size: 16px;
     color: #fff;
     font-weight: bold;
