@@ -50,8 +50,8 @@ small {
 
 .one {
     text-transform: uppercase;
-    background-color: #048383;
-    border: 1px solid #048383;
+    background-color: #058283;
+    border: 1px solid #058283;
 }
 
 .one:hover {
@@ -409,7 +409,7 @@ small {
 }
 
 #newsletter .newsletter-span {
-    padding: 3px;
+    padding: 3px 5px;
     border-radius: 3px;
     background-color: #048383;
 }
@@ -441,3 +441,46 @@ small {
 
 
 /*----- ContactUs Section -----*/
+
+#contact-us {
+    padding: 100px 0;
+    background-color: #edf4ec;
+}
+
+#contact-us h2 {
+    color: #252c2f;
+}
+
+#contact-us .contact-title {
+    padding: 20px 0 10px 0;
+}
+
+#contact-us .contact-span {
+    padding: 5px 8px;
+    border-radius: 5px;
+    color: #058283;
+    background-color: #CCE3DE;
+}
+
+#contact-us .input-form {
+    padding: 20px 0;
+}
+
+#contact-us .form-group {
+    display: flex;
+}
+
+#contact-us .form-control {
+    font-size: 15px;
+    background-color: #DCE2DB;
+    border: 1px solid #DCE2DB;
+}
+
+#contact-us textarea.form-control {
+    height: 120px;
+    resize: none;
+}
+
+#contact-us .form-group .name, .form-group .phone {
+    margin-right: 15px;
+}
