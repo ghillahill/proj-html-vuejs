@@ -124,7 +124,6 @@ small {
     object-fit: contain;
 }
 
-
 #nav-jumbo a {
     font-weight: bold;
     text-transform: uppercase;
@@ -247,6 +246,8 @@ small {
 #business .cards .img-card > img {
     width: 185px;
 }
+
+
 
 /*----- Network Section -----*/
 
