@@ -73,6 +73,7 @@ small {
 }
 
 .three {
+    padding: 5px;
     background-color: #8cdadc;
     border: 1px solid #8cdadc;
     color: #088181;
@@ -183,7 +184,7 @@ small {
 #nav-jumbo .jumbo p {
     font-size: 16px;
     padding: 15px 0;
-    color: #919194;
+    color: #cecece;
 }
 
 #nav-jumbo .jumbo .two {
@@ -209,7 +210,8 @@ small {
     flex-direction: column;
 }
 
-#business .services h2 {
+#business .services-title {
+    padding: 15px 0;
     color: #252c2f;
 }
 
@@ -219,7 +221,11 @@ small {
 }
 
 #business .services .traits {
-    padding: 15px 0;
+    padding: 10px 0;
+}
+
+#business .services .traits a {
+    font-size: 12px;
 }
 
 #business .services .cta {
@@ -267,7 +273,7 @@ small {
 }
 
 #network .company-title {
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 #network .company-span {
@@ -334,6 +340,10 @@ small {
 #editorial {
     padding: 100px 0;
     background-color: #fff;
+}
+
+#editorial .editorial-title {
+    padding: 15px 0;
 }
 
 #editorial h2 {
@@ -418,7 +428,7 @@ small {
 }
 
 #newsletter .newsletter-title {
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 #newsletter p {
