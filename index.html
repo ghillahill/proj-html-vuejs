@@ -291,6 +291,103 @@
                     </div>
                 </div>
             </section>
+
+            <section id="footer">
+                <footer class="footer-up">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="footer-contact-info">
+                                    <div class="footer-logo">
+                                        <a class="navbar-brand" href="#">
+                                            <span class="logo-deco">Nex</span>Gen
+                                        </a>
+                                    </div>
+                                    <p>A Functional HTML Template for Corporate & Business</p>
+                                    <div class="footer-contact">
+                                        <div class="contact">
+                                            <div class="icon">
+                                                <i class="fas fa-phone-alt"></i>
+                                            </div>
+                                            <span>+1 (305) 1234-5678</span>
+                                        </div>
+                                        <div class="contact">
+                                            <div class="icon">
+                                                <i class="fas fa-envelope"></i>
+                                            </div>
+                                            <span>hello@example.com</span>
+                                        </div>
+                                        <div class="contact">
+                                            <div class="icon">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                            </div>
+                                            <span>Main Avenue, 987</span>
+                                        </div>
+                                    </div>
+                                    <a class="buttn two" href="#">Get in touch</a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="menu">
+                                    <h3>About</h3>
+                                    <ul v-for="item in footerMenu.about">
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-chevron-right"></i>
+                                                {{item}}
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="menu">
+                                    <h3>Transport</h3>
+                                    <ul v-for="item in footerMenu.transport">
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-chevron-right"></i>
+                                                {{item}}
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="menu">
+                                    <h3>Support</h3>
+                                    <ul v-for="item in footerMenu.support">
+                                        <li>
+                                            <a href="#">
+                                                <i class="fas fa-chevron-right"></i>
+                                                {{item}}
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <footer class="footer-down">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="left-text">
+                                    <p>Enjoy the low price. We are tracking any intention of piracy.</p>
+                                </div>
+                            </div>
+                            <div class="col-4 offset-3">
+                                <div class="right-text">
+                                    <p>
+                                        &#169; 2020 NEXGEN is Proudly Powered by <a href="#">Codings</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </section>
         </div>
 
         <script src="main.js" charset="utf-8"></script>
