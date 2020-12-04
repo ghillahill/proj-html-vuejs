@@ -40,9 +40,13 @@ var app = new Vue({
                 'Accessibility',
                 'Information',
             ]
-        }
+        },
+        isActive: true
     },
     methods: {
+        isChanged() {
+            this.isActive = !this.isActive;
+        }
     }
 
 });

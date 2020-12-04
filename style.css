@@ -48,7 +48,7 @@ small {
     border-radius: 5px;
 }
 
-.one {
+.buttn.one {
     text-transform: uppercase;
     background-color: #058283;
     border: 1px solid #058283;
@@ -60,7 +60,7 @@ small {
     background-color: #048383;
 }
 
-.two {
+.buttn.two {
     color: #088181;
     background-color: transparent;
     border: 1px solid #088181;
@@ -73,7 +73,7 @@ small {
     color: #edf4ec;
 }
 
-.three {
+.buttn.three {
     padding: 5px;
     background-color: #8cdadc;
     border: 1px solid #8cdadc;
