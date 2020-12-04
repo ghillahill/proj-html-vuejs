@@ -45,8 +45,8 @@
                             <span class="logo-deco">Nex</span>Gen
                         </a>
                         <div class="navbar-nav">
-                            <div class="nav-links" v-for="item in navMenu">
-                                <a @click="isChanged" :class="{ 'nav-link': isActive, 'buttn one': !isActive }" href="#">{{ item }}</a>
+                            <div class="nav-links" v-for="(item,indice) in navMenu">
+                                <a @click="isChanged" :class="{ 'buttn one': isActive}" href="#">{{ item }}</a>
                             </div>
                             <a class="buttn one" href="#">Get in Touch</a>
                         </div>

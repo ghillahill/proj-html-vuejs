@@ -41,7 +41,7 @@ var app = new Vue({
                 'Information',
             ]
         },
-        isActive: true
+        isActive: false
     },
     methods: {
         isChanged() {
