@@ -1,6 +1,7 @@
 var app = new Vue({
     el: '#root',
     data: {
+        indiceMenuSelezionato  : 0,
         navMenu: [
             'Home',
             'Services',
@@ -44,8 +45,9 @@ var app = new Vue({
         isActive: false
     },
     methods: {
-        isChanged() {
-            this.isActive = !this.isActive;
+        isChanged(indice) {
+            //this.isActive = !this.isActive;
+            this.indiceMenuSelezionato = indice;
         }
     }
 

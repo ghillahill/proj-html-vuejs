@@ -46,7 +46,7 @@
                         </a>
                         <div class="navbar-nav">
                             <div class="nav-links" v-for="(item,indice) in navMenu">
-                                <a @click="isChanged" :class="{ 'buttn one': isActive}" href="#">{{ item }}</a>
+                                <a @click="isChanged(indice)" href="#" :class="indice == indiceMenuSelezionato ? 'buttn one' : ''">{{ item }}</a>
                             </div>
                             <a class="buttn one" href="#">Get in Touch</a>
                         </div>
